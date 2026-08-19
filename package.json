@@ -1,0 +1,37 @@
+{
+  "name": "personal-agentic-assistant",
+  "version": "1.0.0",
+  "description": "Personal health & lifestyle assistant — console-based orchestrator + four sub-agents",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "tsc --noEmit && vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brahim-cp/personal-agentic-assistant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brahim-cp/personal-agentic-assistant/issues"
+  },
+  "homepage": "https://github.com/brahim-cp/personal-agentic-assistant#readme",
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "3.0.116",
+    "@ai-sdk/mcp": "0.0.28",
+    "ai": "5.0.239",
+    "googleapis": "176.0.0",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.1",
+    "tsx": "4.23.12",
+    "typescript": "5.9.3",
+    "vitest": "3.2.7"
+  }
+}
